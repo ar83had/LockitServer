@@ -11,6 +11,8 @@ async function signup_store(req,res){
 
     try{
         const form = req.body.form;
+        console.log(req.body.form);
+        console.log(typeof req.body.form);
         // let result = await checkStatus(form)
 
         let result = await storeUser(form);
