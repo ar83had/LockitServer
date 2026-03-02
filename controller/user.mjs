@@ -11,7 +11,7 @@ async function signup_store(req,res){
 
     try{
         const form = req.body.form;
-        console.log(req.body.form);
+        console.log(req.body);
         console.log(typeof req.body.form);
         // let result = await checkStatus(form)
 
